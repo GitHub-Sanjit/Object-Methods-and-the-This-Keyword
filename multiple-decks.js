@@ -1,4 +1,4 @@
-// THIS FUNCTION RETURNS A NEW DECK EVERYTIME WE CALL IT!
+// THIS FUNCTION RETURNS A NEW DECK EVERYTIME WE CALL IT!======
 const makeDeck = () => {
   return {
     deck: [],
@@ -48,7 +48,7 @@ const makeDeck = () => {
   }
 }
 
-// OUR FIRST DECK!
+// OUR FIRST DECK!=======
 const myDeck = makeDeck();
 myDeck.initializeDeck();
 myDeck.shuffle();
